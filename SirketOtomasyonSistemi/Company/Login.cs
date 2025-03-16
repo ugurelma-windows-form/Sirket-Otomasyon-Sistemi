@@ -16,7 +16,7 @@ namespace Company
         }
         public static string tcKimlikNo, sifre, adsoyad, tlfno, email, dogumtarihi, cinsiyet, maas, adres, yetkiDurumu;
         public static string adminID, adminAdSoyad, kurulusTarihi, sirketIsmi, logoYolu;
-        public static string connString = "Data Source=UGUR\\SQLEXPRESS;Initial Catalog=CompanyManager;Integrated Security=True;";
+        public static string connString = "Data Source=.\\SQLEXPRESS;Initial Catalog=CompanyManager;Integrated Security=True;";
         SqlConnection sqlConnection;
         Main main;
 
